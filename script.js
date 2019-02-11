@@ -1,4 +1,4 @@
-//console.log(this);
+console.log(this);
 
 calculateAge(1985);
 
