@@ -15,15 +15,15 @@ var ivan = {
         console.log(2016 - this.yearOfBirth);
 
         
-        //function innerFunction () {   //this is a regular function, not a method and that's why 'this' keyword refers to window object
-           // console.log(this);
-        //}
-        //innerFunction();
+        function innerFunction () {   //this is a regular function, not a method and that's why 'this' keyword refers to window object
+           console.log(this);
+        }
+        innerFunction();
         
     }
 };
 ivan.calculateAge();
-//console.log(ivan);
+console.log(ivan);
 
 var peter = {
     name: 'Peter',
